@@ -3,16 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph.xml"
-    app:startDestination="@id/onBoardFragment">
+    app:startDestination="@id/noteFragment">
 
     <fragment
         android:id="@+id/onBoardFragment"
-        android:name="com.example.noteapp2.ui.fragment.OnBoardFragment"
+        android:name="com.example.noteapp2.ui.fragment.onBoard.OnBoardFragment"
         android:label="OnBoardFragment"
         tools:layout="@layout/fragment_on_board"/>
     <fragment
         android:id="@+id/onBoardPagingFragment"
-        android:name="com.example.noteapp2.ui.fragment.OnBoardPagingFragment"
+        android:name="com.example.noteapp2.ui.fragment.onBoard.OnBoardPagingFragment"
         android:label="fragment_on_board_paging"
         tools:layout="@layout/fragment_on_board_paging" />
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.example.noteapp2.ui.fragment.note.NoteFragment"
+        android:label="fragment_note"
+        tools:layout="@layout/fragment_note" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.noteapp2.ui.fragment
+package com.example.noteapp2.ui.fragment.onBoard
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager2.widget.ViewPager2
-import com.example.noteapp2.R
 import com.example.noteapp2.databinding.FragmentOnBoardBinding
 import com.example.noteapp2.ui.adapter.OnBoardAdapter
 

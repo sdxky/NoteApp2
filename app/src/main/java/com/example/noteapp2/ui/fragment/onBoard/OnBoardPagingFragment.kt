@@ -1,4 +1,4 @@
-package com.example.noteapp2.ui.fragment
+package com.example.noteapp2.ui.fragment.onBoard
 
 import android.os.Bundle
 import android.view.LayoutInflater

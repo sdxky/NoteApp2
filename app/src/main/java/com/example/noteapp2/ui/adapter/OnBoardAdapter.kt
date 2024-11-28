@@ -3,8 +3,8 @@ package com.example.noteapp2.ui.adapter
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.noteapp2.ui.fragment.OnBoardPagingFragment
-import com.example.noteapp2.ui.fragment.OnBoardPagingFragment.Companion.ARG_ONBOARD_POSITION
+import com.example.noteapp2.ui.fragment.onBoard.OnBoardPagingFragment
+import com.example.noteapp2.ui.fragment.onBoard.OnBoardPagingFragment.Companion.ARG_ONBOARD_POSITION
 
 class OnBoardAdapter(
     fragment: Fragment

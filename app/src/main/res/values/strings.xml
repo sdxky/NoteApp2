@@ -11,4 +11,5 @@
     <string name="title2">Организация</string>
     <string name="title3">Синхронизация</string>
     <string name="start">Начать</string>
+    <string name="all_notes">Все заметки</string>
 </resources>
